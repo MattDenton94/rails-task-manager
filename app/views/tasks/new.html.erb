@@ -1,0 +1,12 @@
+<h1 class="create"><%= "Create a new task" %></h1>
+
+<div class="form-create">
+  <%= form_with model: @task do |f| %>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+    <%= f.label :details %>
+    <%= f.text_field :details %>
+</div>
+
+  <%= f.submit "Create task", class: "btn-create" %>
+<% end %>

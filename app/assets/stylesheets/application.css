@@ -13,3 +13,132 @@
  *= require_tree .
  *= require_self
  */
+
+/* Index page displaying tasks */
+.main-title {
+  font-family: Impact;
+  color: white;
+  background-color: black;
+  padding: 40px;
+}
+
+.task-list {
+  font-family: sans-serif;
+  padding: 15px;
+}
+
+.list li {
+  font-family: monospace;
+  font-size: 15px;
+}
+
+.list li a {
+  text-decoration: none;
+}
+
+.btn-new {
+  background-color: #72b01d;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 15px;
+  color: white;
+  display: block;
+}
+
+/* Show page */
+
+.show-container {
+  background-color:#ffecd1;
+  text-align: center;
+  width: 100%;
+}
+
+.task-title {
+  font-family: sans-serif;
+  padding: 20px;
+  color: #03045e;
+  background-color: #ffecd1;
+  text-align: center;
+}
+
+.details {
+  font-family: monospace;
+  padding: 20px;
+}
+
+.form-completed {
+  background-color: #caf0f8;
+  padding: 20px;
+  width: 15%;
+  color: navy;
+  font-family: monospace;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.btn-completed {
+  background-color: #264653;
+  width: 10%;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.btn-edit {
+  background-color: #023e8a;
+  width: 10%;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+.btn-delete {
+  background-color: #2a9d8f;
+  width: 10%;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+.btn-home {
+  background-color: #03045e;
+  width: 7%;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: right;
+  display: block;
+  margin-left: auto;
+
+
+}
+
+/* New page */
+
+.create {
+  font-family: sans-serif;
+  margin-left: 20px;
+}
+
+.btn-create {
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  background-color: #00a6fb;
+  border-radius: 8px;
+  color: navy;
+}
+
+.form-create {
+  background-color: #73d2de;
+  padding: 50px;
+  width: 50%;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
