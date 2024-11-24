@@ -1,11 +1,14 @@
 <div class="edit">
+  <h1 class="edit-heading">Edit your task</h1>
 <%= form_with model: @task do |f| %>
   <%= f.label :title %>
   <%= f.text_field :title %>
   <%= f.label :details %>
   <%= f.text_field :details %>
+  <div class="checkbox-container">
   <%= f.label :completed %>
   <%= f.check_box :completed%>
-  <%= f.submit "Save changes" %>
+  </div>
+  <%= f.submit "Save changes", class:"btn-changes" %>
 <% end %>
 </div>
